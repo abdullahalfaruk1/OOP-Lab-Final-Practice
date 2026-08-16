@@ -32,5 +32,7 @@ public class AbstractClassWithConstructor {
     public static void main(String[] args) {
         Animal c = new Cat();
         c.sound();
+        Dog d = new Dog();
+        d.sound();
     }
 }
