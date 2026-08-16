@@ -17,11 +17,16 @@ class Pappy extends Cat implements Animal {
         System.out.println("Pappy Show");
     }
 
-    public void display() {
+    void display() {
         System.out.println("Pappy Display");
     }
 }
 
 public class InterfaceAbstract {
+    public static void main(String[] args) {
+        Pappy p = new Pappy();
+        p.show();
+        p.display();
 
+    }
 }
