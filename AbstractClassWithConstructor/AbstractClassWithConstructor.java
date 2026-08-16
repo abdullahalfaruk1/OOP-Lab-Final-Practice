@@ -29,5 +29,8 @@ class Dog extends Animal {
 }
 
 public class AbstractClassWithConstructor {
-
+    public static void main(String[] args) {
+        Animal c = new Cat();
+        c.sound();
+    }
 }
