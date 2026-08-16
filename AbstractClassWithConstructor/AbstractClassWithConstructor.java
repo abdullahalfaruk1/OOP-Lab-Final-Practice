@@ -18,6 +18,16 @@ class Cat extends Animal {
     }
 }
 
+class Dog extends Animal {
+    Dog() {
+        System.out.println("Dog Constructor");
+    }
+
+    void sound() {
+        System.out.println("Dog Barks");
+    }
+}
+
 public class AbstractClassWithConstructor {
 
 }
