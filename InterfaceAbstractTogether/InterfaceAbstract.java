@@ -1,14 +1,27 @@
 package InterfaceAbstractTogether;
-interface A{
+
+interface Animal {
     void show();
 }
-abstract class B{
+
+abstract class Cat {
     abstract void display();
 
-    B(){
-        System.out.println("B constructor");
+    Cat() {
+        System.out.println("Cat constructor");
     }
 }
+
+class Pappy extends Cat implements Animal {
+    public void show() {
+        System.out.println("Pappy Show");
+    }
+
+    public void display() {
+        System.out.println("Pappy Display");
+    }
+}
+
 public class InterfaceAbstract {
 
 }
